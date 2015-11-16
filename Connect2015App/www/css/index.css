@@ -1,0 +1,55 @@
+﻿html, body {
+    height: 100%;
+    font-size: 18px;
+}
+body {
+    color: #fff;
+    background: url(../images/Connect2015.png) #9b4cdd no-repeat center;
+}
+input[type=text], select, textarea {
+    font-size: 18px;
+}
+.leading {
+    font-size: 80%;
+}
+.button {
+    width: 200px;
+    color: #fff;
+    background: #37d8ba;
+    display: inline-block;
+    padding: 12px 0;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+}
+#entry-frame {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+#entry-form dl {
+    width: 100%;
+}
+#entry-form dt {
+    font-weight: bold;
+}
+#entry-form dd {
+    margin: 0;
+}
+#entry-form dd input, #entry-form dd select {
+    width: 60%;
+}
+#entry-form dd textarea {
+    width: 98%;
+    height: 150px;
+}
+#complete-frame {
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+}
